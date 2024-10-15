@@ -3,48 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./js/test.js" defer></script>
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- <button onclick="onClickButton(this)">Click to me :)</button> -->
+    <!-- <form class="form" autocomplete="off">
+      <input type="text" name="login" placeholder="Login" />
+      <input type="password" name="password" placeholder="Password" />
+      <button class="btn" type="submit">Register</button>
+    </form> -->
+    <!-- <p>Selected option value: <span class="text-output">none</span></p>
 
-    <!-- <p id="text">Lorem ipsum dolor sit amet.</p>
+    <p>
+      <select class="pizza-select">
+        <option value="four_meats">Four Meats</option>
+        <option value="royal_cheese">Royal Cheese</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="smoked_salmon">Smoked Salmon</option>
+      </select>
+    </p> -->
 
-    <span>Text 1</span>
-    <span>Text 2</span>
-    <span>Text 3</span>
+    <!-- "input" , "change" -->
 
-    <span class="simple-text">Text 4</span>
-    <span class="simple-text">Text 5</span>
-    <span class="simple-text">Text 6</span> -->
+    <!-- <input type="text" class="text-input" />
+    <p>Text field value: <span class="output"></span></p>
 
-    <!-- <form id="main-form" method="post">
-      <label for="name">Имя:</label>
-      <input type="text" name="name" placeholder="Имя" id="name" /><br /><br />
+    <input type="text" class="text-input-second" />
+    <p>Text field value: <span class="output-second"></span></p>
+    <button class="clear-button">Clear input fields</button> -->
+
+    <!-- <form class="loginForm">
+      <label for="username">Логин:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Введите ваш логин"
+      />
+
       <label for="password">Пароль:</label>
       <input
         type="password"
-        name="pass"
-        placeholder="Пароль"
-        id="pass"
-      /><br /><br />
-      <label for="repass">Проверка пароля:</label>
-      <input
-        type="password"
-        name="repass"
-        placeholder="Проверка пароля"
-        id="repass"
+        id="password"
+        name="password"
+        placeholder="Введите ваш пароль"
       />
-      <br />
-      <br />
-      <span>Пол:</span>
-      <input type="radio" name="state" id="male" value="Мужской" />
-      <label for="male">Мужской</label>
-      <input type="radio" name="state" id="female" value="Женский" />
-      <label for="female">Женский</label><br /><br />
-      <div id="error" style="color: red"></div>
-      <input type="submit" name="submit" value="Готово" />
+
+      <label for="comments">Комментарий:</label>
+      <textarea
+        id="comments"
+        name="comments"
+        rows="4"
+        placeholder="Введите ваш комментарий"
+      ></textarea>
+
+      <button type="submit">Отправить</button>
+      
     </form> -->
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
+    <script defer src="./js/test.js"></script>
   </body>
 </html>

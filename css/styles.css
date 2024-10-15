@@ -1,0 +1,52 @@
+/* "input" , "change" */
+
+/* body {
+  margin: 16px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+
+p {
+  overflow-wrap: anywhere;
+}
+
+input {
+  width: 100%;
+  max-width: 320px;
+  padding: 8px;
+  font: inherit;
+  letter-spacing: inherit;
+} */
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm input,
+.loginForm textarea {
+  width: 314px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#comments {
+  resize: none;
+}
+
+.loginForm button {
+  width: 314px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginForm button:hover {
+  background-color: #218838;
+}
