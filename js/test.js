@@ -1114,3 +1114,25 @@
 
 // const carObj = JSON.parse(localStorage.getItem("car"));
 // console.log(carObj);
+
+// function getEvenNumbers(start, end) {
+//   var res = [];
+//   for (let i = start; i <= end; i++) {
+//     if (i % 2 === 0) {
+//       res.push(i);
+//     }
+//   }
+//   return res;
+// }
+
+// console.log(getEvenNumbers(2, 5));
+
+// function calculateTotalPrice(order) {
+//   var sum = 0;
+//   for (var newArray of order) {
+//     sum += newArray;
+//   }
+//   return sum;
+// }
+
+// console.log(calculateTotalPrice([164, 48, 291]));
