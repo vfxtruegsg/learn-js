@@ -36,35 +36,31 @@
     <p>Text field value: <span class="output-second"></span></p>
     <button class="clear-button">Clear input fields</button> -->
 
-    <!-- <form class="loginForm">
-      <label for="username">Логин:</label>
-      <input
-        type="text"
-        id="username"
-        name="username"
-        placeholder="Введите ваш логин"
-      />
-
+    <form id="main-form" onsubmit="checkForm(this)" method="post">
+      <label for="name">Имя:</label>
+      <input type="text" name="name" placeholder="Имя" id="name" /><br /><br />
       <label for="password">Пароль:</label>
       <input
         type="password"
-        id="password"
-        name="password"
-        placeholder="Введите ваш пароль"
+        name="pass"
+        placeholder="Пароль"
+        id="pass"
+      /><br /><br />
+      <label for="repass">Проверка пароля:</label>
+      <input
+        type="password"
+        name="repass"
+        placeholder="Проверка пароля"
+        id="repass"
       />
-
-      <label for="comments">Комментарий:</label>
-      <textarea
-        id="comments"
-        name="comments"
-        rows="4"
-        placeholder="Введите ваш комментарий"
-      ></textarea>
-
-      <button type="submit">Отправить</button>
-      
-    </form> -->
-    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
-    <script defer src="./js/test.js"></script>
+      <br />
+      <br />
+      <span>Пол:</span>
+      <input type="radio" name="state" id="male" value="Мужской" />
+      <label for="male">Мужской</label>
+      <input type="radio" name="state" id="female" value="Женский" />
+      <label for="female">Женский</label><br /><br />
+      <input type="submit" name="submit" value="Готово" />
+    </form>
   </body>
 </html>
